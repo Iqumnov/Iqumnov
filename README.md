@@ -44,7 +44,8 @@
 ├── Frameworks & Web ────► Next.js • NestJS • SolidJS • React • Node.js • FastAPI • Flask • JUnit • WebSockets
 ├── Quantum & AI Tools ──► Qiskit • PennyLane (QML) • Cirq • Q# • TensorFlow Quantum • PyTorch • OpenQL • Z3 SMT
 ├── Cybersecurity & Net ─► liboqs (Open Quantum Safe) • Wireshark • Nmap • Metasploit • IAM / Zero Trust • SIEM • eBPF
-└── Dev Tools & Engines ─► Linux (Kali/Ubuntu) • Git • Docker • Jupyter • Kubernetes • AWS • GCP • NumPy • SciPy
+├── Dev Tools & Engines ─► Linux • bash • PowerShell • Git • Docker • Kubernetes • AWS • GCP • NumPy • SciPy • NIST PQC Standards (FIPS Compliance)
+└── Extra ──► English (Advanced) • Russian (Native)
 ```
 
 ---
@@ -105,7 +106,8 @@
 ├── Фреймворки и Web ────► Next.js • NestJS • SolidJS • React • Node.js • FastAPI • Flask • JUnit • WebSockets
 ├── Кванты и ИИ ─────────► Qiskit • PennyLane (QML) • Cirq • Q# • TensorFlow Quantum • PyTorch • OpenQL • Z3 SMT
 ├── Безопасность и Сети ─► liboqs (Open Quantum Safe) • Wireshark • Nmap • Metasploit • IAM / Zero Trust • SIEM • eBPF
-└── Инструменты и СУБД ──► Linux (Kali/Ubuntu) • Git • Docker • Jupyter • Kubernetes • AWS • GCP • NumPy • SciPy
+├── Инструменты и СУБД ──► Linux • bash • PowerShell • Git • Docker • AWS • GCP • NumPy • SciPy • NIST PQC Standards (FIPS Compliance)
+└── Дополнительно ──► Английкий (Продвинутый) • Русский (Родной)
 ```
 
 ---
