@@ -2,10 +2,10 @@
 
   <img src="./stats.svg" width="100%" alt="Contributions in the last year"/>
 
-  [instagram](https://www.instagram.com/iqumnov) &nbsp;·&nbsp;
-  [linkedin](https://www.linkedin.com/in/iqumnov) &nbsp;·&nbsp;
-  [telegram](https://t.me/iqumnov) &nbsp;·&nbsp;
-  [email](mailto:iqumnov@proton.me)
+  [Instagram](https://www.instagram.com/iqumnov) &nbsp;·&nbsp;
+  [LinkedIn](https://www.linkedin.com/in/iqumnov) &nbsp;·&nbsp;
+  [Telegram](https://t.me/iqumnov) &nbsp;·&nbsp;
+  [Email](mailto:iqumnov@proton.me)
 
 </div>
 
@@ -55,7 +55,7 @@
 </p>
 
 *   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2020 & 2021 (Global Summer School)
+*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 (Qiskit Global Summer School)
 *   **Lomonosov MSU Case-Championship Winner** | Medical Analytical Platform (Healthy Technologies)
 *   **Womanium Global Quantum Computing Program** | Hardware Certificate (MIT, IBM, Princeton Partnership)
 *   **QHack Coding Challenges Certificate** | PennyLane / Xanadu
@@ -117,7 +117,7 @@
 </p>
 
 *   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2020 и 2021 (Global Summer School)
+*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 (Qiskit Global Summer School)
 *   **Международный кейс-чемпионат МГУ** | Победитель («Медицинская аналитическая платформа»)
 *   **Womanium Global Quantum Computing Program** | Аппаратный сертификат (Hardware Certificate)
 *   **QHack Coding Challenges** | Сертификат PennyLane / Xanadu
