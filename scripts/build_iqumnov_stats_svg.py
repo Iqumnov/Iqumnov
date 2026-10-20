@@ -86,9 +86,9 @@ def window():
     return (f"{start.isoformat()}T00:00:00Z", f"{today.isoformat()}T23:59:59Z")
 
 def fetch_iqumnov_stats():
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
-        print("ERROR: GITHUB_TOKEN not set")
+        print("ERROR: Neither GITHUB_TOKEN nor GH_TOKEN is set")
         sys.exit(1)
     
     login = "Iqumnov"
