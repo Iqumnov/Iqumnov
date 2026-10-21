@@ -11,9 +11,9 @@ from datetime import datetime, timedelta, timezone
 API = "https://api.github.com/graphql"
 
 QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
+query($login: String!) {
   user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
+    contributionsCollection {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { contributionCount date weekday } }
@@ -80,11 +80,6 @@ def label(x, y, text, size=11, cls="m-f", anchor="start", extra=""):
     return (f'<text x="{x}" y="{y}" class="{cls}" font-size="{size}"{a}'
             f'{extra}>{text}</text>')
 
-def window():
-    today = datetime.now(timezone.utc).date()
-    start = today - timedelta(days=364)
-    return (f"{start.isoformat()}T00:00:00Z", f"{today.isoformat()}T23:59:59Z")
-
 def fetch_iqumnov_stats():
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
@@ -92,11 +87,10 @@ def fetch_iqumnov_stats():
         sys.exit(1)
     
     login = "Iqumnov"
-    since, until = window()
     
     body = json.dumps({
         "query": QUERY,
-        "variables": {"login": login, "from": since, "to": until}
+        "variables": {"login": login}
     }).encode()
     
     req = urllib.request.Request(
