@@ -15,7 +15,7 @@
 ⌍ Overview ⌎
 </p>
 
-**Quantum Cybersecurity**, low-level systems security, and hardened defense architectures. Developing automated binary analysis tooling and kernel-level monitoring systems to protect infrastructure from next-generation threats. 
+**Quantum Security**, low-level systems security, and hardened defense architectures. Developing automated binary analysis tooling and kernel-level monitoring systems to protect infrastructure from next-generation threats. 
 
 *   **Education:** B.S. in Information Security at Moscow Polytechnic University (Expected 2027).
 *   **Core Research:** Active contributor to Moscow university-level elite quantum initiatives and competitive hacking frameworks.
@@ -74,7 +74,7 @@
 ⌍ Обзор ⌎
 </p>
 
-**Квантовой кибербезопасность**, безопасность низкоуровневых систем и разработка защищенных архитектур. Разрабатываю инструменты автоматического статического анализа кода и системы мониторинга на уровне ядра для защиты инфраструктуры от угроз нового поколения.
+**Квантоввя безопасность**, безопасность низкоуровневых систем и разработка защищенных архитектур. Разрабатываю инструменты автоматического статического анализа кода и системы мониторинга на уровне ядра для защиты инфраструктуры от угроз нового поколения.
 
 *   **Образование:** НИУ Московский Политехнический Университет, "Информационная безопасность" (2027).
 *   **Исследования:** Участник квантовых хакатонов и профильных мероприятий ведущих вузов Москвы, работаю над научными статьями на тему защиты квантовых компьютеров.
