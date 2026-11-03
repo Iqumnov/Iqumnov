@@ -17,7 +17,7 @@
 
 **Quantum Cybersecurity**, low-level systems security, and hardened defense architectures. Developing automated binary analysis tooling and kernel-level monitoring systems to protect infrastructure from next-generation threats. 
 
-*   **Education:** B.S. in Information Security at Moscow Polytechnic University (Expected 2027); Tourism Degree from College of RSSU (2025).
+*   **Education:** B.S. in Information Security at Moscow Polytechnic University (Expected 2027).
 *   **Core Research:** Active contributor to Moscow university-level elite quantum initiatives and competitive hacking frameworks.
 
 ---
@@ -26,9 +26,6 @@
 ⌍ Core Initiatives ⌎
 </p>
 
-*   **Igumnov Quantum Computer Security Suite** (In Development)
-    *   Low-level security runtime engineered to monitor quantum simulation and execution layers.
-    *   *Stack:* Rust, eBPF, `liboqs`, Tauri v2, SolidJS, MCP.
 *   **PQCanary** (In Development)
     *   An automated static analysis pipeline and formal verification tool targeting post-quantum implementations.
     *   *Stack:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, Qiskit.
@@ -79,7 +76,7 @@
 
 **Квантовой кибербезопасность**, безопасность низкоуровневых систем и разработка защищенных архитектур. Разрабатываю инструменты автоматического статического анализа кода и системы мониторинга на уровне ядра для защиты инфраструктуры от угроз нового поколения.
 
-*   **Образование:** НИУ Московский Политехнический Университет, "Информационная безопасность" (2027); Колледж РГСУ (2025).
+*   **Образование:** НИУ Московский Политехнический Университет, "Информационная безопасность" (2027).
 *   **Исследования:** Участник квантовых хакатонов и профильных мероприятий ведущих вузов Москвы, работаю над научными статьями на тему защиты квантовых компьютеров.
 
 ---
@@ -88,9 +85,6 @@
 ⌍ Проекты ⌎
 </p>
 
-*   **Igumnov Quantum Computer Security Suite**
-    *   Низкоуровневый комплекс безопасности для мониторинга сред выполнения квантовых симуляций.
-    *   *Стек:* Rust, eBPF, `liboqs`, Tauri v2, SolidJS, MCP.
 *   **PQCanary**
     *   Инструмент статического анализа и формальной верификации корректности постквантовых алгоритмов.
     *   *Стек:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, Qiskit.
