@@ -15,7 +15,10 @@
 ⌍ Overview ⌎
 </p>
 
-**Quantum Security**, low-level systems security, and hardened defense architectures. Developing automated binary analysis tooling and kernel-level monitoring systems to protect infrastructure from next-generation threats. 
+Backend developer (Go/Python/Rust).
+Background in InfoSec, quantum, and low-level systems.
+Focused on performance profiling, memory optimization, and secure API design.
+Currently interested in high-load architectures, distributed systems, and eBPF.
 
 *   **Education:** B.S. in Information Security at Moscow Polytechnic University (Expected 2027).
 *   **Core Research:** Active contributor to Moscow university-level elite quantum initiatives and competitive hacking frameworks.
@@ -37,25 +40,25 @@
 </p>
 
 ```text
-┌── Languages ───────────► Python • C/C++ • Rust • TypeScript • JavaScript • SQL (Postgres) • Assembly (QASM, x86)
-├── Frameworks & Web ────► Next.js • NestJS • SolidJS • React • Node.js • FastAPI • Flask • JUnit • WebSockets
-├── Quantum & AI Tools ──► Qiskit • PennyLane (QML) • Cirq • Q# • TensorFlow Quantum • PyTorch • OpenQL • Z3 SMT
-├── Cybersecurity & Net ─► liboqs (Open Quantum Safe) • Wireshark • Nmap • Metasploit • IAM / Zero Trust • SIEM • eBPF
-├── Dev Tools & Engines ─► Linux • bash • PowerShell • Git • Docker • Kubernetes • AWS • GCP • NumPy • SciPy • NIST PQC Standards (FIPS Compliance)
-└── Extra ──► English (Advanced) • Russian (Native)
+┌── Языки ───────────────────► Go (Golang) • Python • C/C++ • Rust • SQL (PostgreSQL, ClickHouse) • TypeScript • Assembly (x86)
+├── Backend и Архитектура ───► Микросервисы • Event-driven • gRPC • REST API • Apache Kafka • Redis • PostgreSQL • ClickHouse • Clean Architecture • DDD
+├── Web/API ─────────────────► FastAPI • NestJS • Node.js • WebSockets • OpenAPI/Swagger
+├── DevOps и Observability ──► Linux • Docker • Kubernetes • Git • CI/CD • Prometheus • Grafana • OpenTelemetry • eBPF
+├── Безопасность и R&D ──────► OWASP • API Security • Zero Trust • Wireshark • Z3 SMT • Qiskit • PennyLane • PyTorch • формальная верификация
+└── Языки ───────────────────► Русский (родной) • Английский (Advanced)
 ```
 
 ---
 
 <p align="center">
-⌍ Validation & Milestones ⌎
+⌍ Validation ⌎
 </p>
 
 *   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 (Qiskit Global Summer School)
-*   **Lomonosov MSU Case-Championship Winner** | Medical Analytical Platform (Healthy Technologies)
+*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 — international awards recognizing achievements in quantum computing and complex algorithmic problem-solving.
+*   **Lomonosov MSU Case Championship Winner** | Medical Analytical Platform — team-based solution design, data analysis, and product development.
 *   **Womanium Global Quantum Computing Program** | Hardware Certificate (MIT, IBM, Princeton Partnership)
-*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu
+*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu — competitive quantum computing and programming challenge.
 *   **QWorld QSilver Diploma** | Complex Numbers & Shor’s Algorithm | No: QSilver2-50
 
 <br>
@@ -74,7 +77,10 @@
 ⌍ Обзор ⌎
 </p>
 
-**Квантоввя безопасность**, безопасность низкоуровневых систем и разработка защищенных архитектур. Разрабатываю инструменты автоматического статического анализа кода и системы мониторинга на уровне ядра для защиты инфраструктуры от угроз нового поколения.
+Backend-разработчик (Go/Python/Rust).
+Бэкграунд в ИБ, квантовых вычислениях и низкоуровневых системах.
+Фокус на профилировании производительности, оптимизации памяти и безопасном дизайне API.
+Сейчас интересуюсь высоконагруженными архитектурами, распределенными системами и eBPF.
 
 *   **Образование:** НИУ Московский Политехнический Университет, "Информационная безопасность" (2027).
 *   **Исследования:** Участник квантовых хакатонов и профильных мероприятий ведущих вузов Москвы, работаю над научными статьями на тему защиты квантовых компьютеров.
@@ -109,10 +115,9 @@
 <p align="center">
 ⌍ Сертификаты и Достижения ⌎
 </p>
-
 *   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 (Qiskit Global Summer School)
-*   **Международный кейс-чемпионат МГУ** | Победитель («Медицинская аналитическая платформа»)
-*   **Womanium Global Quantum Computing Program** | Аппаратный сертификат (Hardware Certificate)
-*   **QHack Coding Challenges** | Сертификат PennyLane / Xanadu
+*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 — международные награды за результаты в квантовых вычислениях и работу со сложными алгоритмическими задачами.
+*   **Победитель кейс-чемпионата МГУ** | Медицинская аналитическая платформа — командная разработка, проектирование решения и работа с данными.
+*   **Womanium Global Quantum Computing Program** | Hardware Certificate (MIT, IBM, Princeton Partnership)
+*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu — участие в соревновании по квантовым вычислениям и программированию.
 *   **Диплом QWorld QSilver** | Комплексные числа и алгоритм Шора | № QSilver2-50
