@@ -15,7 +15,6 @@
 ⌍ Overview ⌎
 </p>
 
-Backend developer (Go/Python/Rust).
 Background in InfoSec, quantum, and low-level systems.
 Focused on performance profiling, memory optimization, and secure API design.
 Currently interested in high-load architectures, distributed systems, and eBPF.
@@ -77,7 +76,6 @@ Currently interested in high-load architectures, distributed systems, and eBPF.
 ⌍ Обзор ⌎
 </p>
 
-Backend-разработчик (Go/Python/Rust).
 Бэкграунд в ИБ, квантовых вычислениях и низкоуровневых системах.
 Фокус на профилировании производительности, оптимизации памяти и безопасном дизайне API.
 Сейчас интересуюсь высоконагруженными архитектурами, распределенными системами и eBPF.
