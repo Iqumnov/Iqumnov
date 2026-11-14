@@ -15,12 +15,10 @@
 ⌍ Overview ⌎
 </p>
 
-Background in InfoSec, quantum, and low-level systems.
-Focused on performance profiling, memory optimization, and secure API design.
-Currently interested in high-load architectures, distributed systems, and eBPF.
+**Quantum Security**, cryptographic engineering, and low-level systems defense. Developing static verification tooling, kernel-level telemetry, and post-quantum security architectures to protect critical and enterprise infrastructure from next-generation threats.
 
-*   **Education:** B.S. in Information Security at Moscow Polytechnic University (Expected 2027).
-*   **Core Research:** Active contributor to Moscow university-level elite quantum initiatives and competitive hacking frameworks.
+*   **Education:** B.S. in Information Security, Moscow Polytechnic University (Expected 2027).
+*   **Core Research:** Active contributor to inter-university quantum computing research networks.
 
 ---
 
@@ -28,7 +26,7 @@ Currently interested in high-load architectures, distributed systems, and eBPF.
 ⌍ Core Initiatives ⌎
 </p>
 
-*   **PQCanary** (In Development)
+*   **PQCanary**
     *   An automated static analysis pipeline and formal verification tool targeting post-quantum implementations.
     *   *Stack:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, Qiskit.
 
@@ -39,84 +37,24 @@ Currently interested in high-load architectures, distributed systems, and eBPF.
 </p>
 
 ```text
-┌── Языки ───────────────────► Go (Golang) • Python • C/C++ • Rust • SQL (PostgreSQL, ClickHouse) • TypeScript • Assembly (x86)
-├── Backend и Архитектура ───► Микросервисы • Event-driven • gRPC • REST API • Apache Kafka • Redis • PostgreSQL • ClickHouse • Clean Architecture • DDD
-├── Web/API ─────────────────► FastAPI • NestJS • Node.js • WebSockets • OpenAPI/Swagger
-├── DevOps и Observability ──► Linux • Docker • Kubernetes • Git • CI/CD • Prometheus • Grafana • OpenTelemetry • eBPF
-├── Безопасность и R&D ──────► OWASP • API Security • Zero Trust • Wireshark • Z3 SMT • Qiskit • PennyLane • PyTorch • формальная верификация
-└── Языки ───────────────────► Русский (родной) • Английский (Advanced)
+┌── Languages ───────────► Java • Rust • Python • C/C++ • SQL (Postgres) • OpenQASM
+├── Security & Backend ──► Spring Boot • Spring Security • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC • JUnit 5
+├── Quantum & Formal ────► Qiskit • PennyLane • QKD (ETSI 014) • Z3 SMT
+├── Cyber & Compliance ──► liboqs • NIST PQC (FIPS 203/204) • PKI / X.509 • PKCS#11 • eBPF • OpenTelemetry • DORA / NIS2
+├── Infra & Cloud ───────► Linux (RHEL/Debian) • Docker • Kubernetes • AWS
+└── Spoken Languages ────► English (Advanced) • French (Learning) • Russian (Native)
+
 ```
 
 ---
 
 <p align="center">
-⌍ Validation ⌎
+⌍ Validation & Milestones ⌎
 </p>
 
 *   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 — international awards recognizing achievements in quantum computing and complex algorithmic problem-solving.
-*   **Lomonosov MSU Case Championship Winner** | Medical Analytical Platform — team-based solution design, data analysis, and product development.
+*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 (Qiskit Global Summer School)
+*   **Lomonosov MSU Case-Championship Winner** | Medical Analytical Platform (Healthy Technologies)
 *   **Womanium Global Quantum Computing Program** | Hardware Certificate (MIT, IBM, Princeton Partnership)
-*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu — competitive quantum computing and programming challenge.
+*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu
 *   **QWorld QSilver Diploma** | Complex Numbers & Shor’s Algorithm | No: QSilver2-50
-
-<br>
-<br>
-<br>
-
-<p align="center">
-⊹       ⊹       ⊹
-</p>
-
-<br>
-<br>
-<br>
-
-<p align="center">
-⌍ Обзор ⌎
-</p>
-
-Бэкграунд в ИБ, квантовых вычислениях и низкоуровневых системах.
-Фокус на профилировании производительности, оптимизации памяти и безопасном дизайне API.
-Сейчас интересуюсь высоконагруженными архитектурами, распределенными системами и eBPF.
-
-*   **Образование:** НИУ Московский Политехнический Университет, "Информационная безопасность" (2027).
-*   **Исследования:** Участник квантовых хакатонов и профильных мероприятий ведущих вузов Москвы, работаю над научными статьями на тему защиты квантовых компьютеров.
-
----
-
-<p align="center">
-⌍ Проекты ⌎
-</p>
-
-*   **PQCanary**
-    *   Инструмент статического анализа и формальной верификации корректности постквантовых алгоритмов.
-    *   *Стек:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, Qiskit.
-
----
-
-<p align="center">
-⌍ Навыки ⌎
-</p>
-
-```text
-┌── Языки ───────────────► Python • C/C++ • Rust • TypeScript • JavaScript • SQL (Postgres) • Assembly (QASM, x86)
-├── Фреймворки и Web ────► Next.js • NestJS • SolidJS • React • Node.js • FastAPI • Flask • JUnit • WebSockets
-├── Кванты и ИИ ─────────► Qiskit • PennyLane (QML) • Cirq • Q# • TensorFlow Quantum • PyTorch • OpenQL • Z3 SMT
-├── Безопасность и Сети ─► liboqs (Open Quantum Safe) • Wireshark • Nmap • Metasploit • IAM / Zero Trust • SIEM • eBPF
-├── Инструменты и СУБД ──► Linux • bash • PowerShell • Git • Docker • AWS • GCP • NumPy • SciPy • NIST PQC Standards (FIPS Compliance)
-└── Дополнительно ──► Английкий (Продвинутый) • Русский (Родной)
-```
-
----
-
-<p align="center">
-⌍ Сертификаты и Достижения ⌎
-</p>
-
-*   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** | 2026, 2021, 2020 — международные награды за результаты в квантовых вычислениях и работу со сложными алгоритмическими задачами.
-*   **Победитель кейс-чемпионата МГУ** | Медицинская аналитическая платформа — командная разработка, проектирование решения и работа с данными.
-*   **Womanium Global Quantum Computing Program** | Hardware Certificate (MIT, IBM, Princeton Partnership)
-*   **QHack Coding Challenges Certificate** | PennyLane / Xanadu — участие в соревновании по квантовым вычислениям и программированию.
-*   **Диплом QWorld QSilver** | Комплексные числа и алгоритм Шора | № QSilver2-50
