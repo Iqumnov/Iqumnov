@@ -38,7 +38,7 @@
 
 ```text
 ┌── Languages ───────────► Rust • Python • C/C++ • Java • C# • SQL (Postgres) • OpenQASM
-├── Security & Backend ──► Spring Boot • Spring Security • .NET • ASP.NET Core • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC
+├── Security & Backend ──► Spring Boot • Spring Security • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC
 ├── Quantum & Formal ────► Qiskit • PennyLane • ETSI GS QKD 014 • Z3 SMT
 ├── Cyber & Compliance ──► liboqs • NIST PQC (FIPS 203/204/205) • PKI / X.509 • PKCS#11 • eBPF • OpenTelemetry • DORA / NIS2
 ├── Infra & Cloud ───────► Linux (RHEL/Debian) • Git • Docker • Kubernetes • AWS
