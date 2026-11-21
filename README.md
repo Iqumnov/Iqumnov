@@ -19,6 +19,7 @@
 **Quantum Security, Cryptographic Engineering, and Low-Level Systems Defense.** Developing static verification tooling, kernel-level telemetry, and post-quantum cryptographic (PQC) architectures.
 
 *   **Education:** B.S. in Information Security, Moscow Polytechnic University (Expected 2027).
+*   Co-founder & curator at [Our Dynasty Art](https://ourdynasty.art) — gallery & collection spanning five generations of family artists.
 
 ---
 
