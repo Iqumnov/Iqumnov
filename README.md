@@ -15,10 +15,9 @@
 ⌍ Overview ⌎
 </p>
 
-**Quantum Security**, cryptographic engineering, and low-level systems defense. Developing static verification tooling, kernel-level telemetry, and post-quantum security architectures to protect critical and enterprise infrastructure from next-generation threats.
+**Quantum Security, Cryptographic Engineering, and Low-Level Systems Defense.** Developing static verification tooling, kernel-level telemetry, and post-quantum cryptographic (PQC) architectures.
 
 *   **Education:** B.S. in Information Security, Moscow Polytechnic University (Expected 2027).
-*   **Core Research:** Active contributor to inter-university quantum computing research networks.
 
 ---
 
