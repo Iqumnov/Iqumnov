@@ -3,7 +3,7 @@
   <img src="./stats.svg" width="100%" alt="Contributions in the last year"/>
 
   <p align="center">
-    <a href="https://github.com/Iqumnov" title="GitHub"><img src="./icons/github.svg" width="32" height="32" alt="GitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="32" height="32" alt="ORCID"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="32" height="32" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.com/users/iqumnov" title="Discord"><img src="./icons/discord.svg" width="32" height="32" alt="Discord"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="32" height="32" alt="LinkedIn"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="32" height="32" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="32" height="32" alt="Instagram"/></a>
+    <a href="https://github.com/Iqumnov" title="GitHub"><img src="./icons/github.svg" width="28" height="28" alt="GitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="28" height="28" alt="ORCID"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="28" height="28" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.com/users/iqumnov" title="Discord"><img src="./icons/discord.svg" width="28" height="28" alt="Discord"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="28" height="28" alt="LinkedIn"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="28" height="28" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="28" height="28" alt="Instagram"/></a>
   </p>
 
   <a href="mailto:matvei@iqumnov.com">matvei@iqumnov.com</a>
@@ -26,14 +26,14 @@
 ⌍ Core Initiatives ⌎
 </p>
 
-*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Live Platform ↗](https://pqcanary.pages.dev)
+*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Visit ↗](https://pqcanary.pages.dev)
     *   **Enterprise Post-Quantum Cryptographic (PQC) Discovery, Verification & Automated Remediation Platform.**
     *   Identifies classical cryptographic algorithms vulnerable to quantum cryptanalysis (RSA, ECC, Diffie-Hellman) and generates compliance-ready Cryptographic Bills of Materials (CBOM) aligned with NIST standards (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
     *   Leverages the **Z3 SMT Solver** to formally prove inductive range bounds and constant-time execution across lattice polynomial reduction loops, statically eliminating secret-dependent timing side-channel leaks (KyberSlash).
     *   Features an automated AST-level code modernization engine alongside a zero-install, client-side WebAssembly analyzer running pure Rust.
     *   *Stack:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, liboqs, Qiskit.
 
-*   **[qir-reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Live Web App ↗](https://qir-reversing.iqumnov.com)
+*   **[QIR Reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Visit ↗](https://qir-reversing.iqumnov.com)
     *   **LLVM Quantum Intermediate Representation (QIR) Reverse Engineering, Topological Deobfuscation & Formal Verification Suite.**
     *   High-performance zero-copy disassembler parsing textual LLVM IR (`.ll`) and raw binary bitcode (`.bc`) with `#![forbid(unsafe_code)]` in the mathematical core.
     *   Applies quantum commutation algebra to eliminate self-inverse involutory gate pairs ($H^2 = I, X^2 = I, CX^2 = I$), consolidate continuous Lie group rotations ($R_z(\alpha) \cdot R_z(\beta)$), and prune dead unmeasured qubit telemetry.
@@ -41,7 +41,7 @@
     *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock.
     *   *Stack:* Rust, LLVM QIR, Lean 4, WebAssembly, Rizin C-ABI, Cutter (PySide), OpenQASM 3.0, MCP JSON-RPC 2.0.
 
-*   **[turtleshell-demo](https://github.com/Iqumnov/turtleshell-demo)** &nbsp;·&nbsp; [Zenodo DOI ↗](https://doi.org/10.5281/zenodo.21921488)
+*   **[TurtleShell Demo](https://github.com/Iqumnov/turtleshell-demo)**
     *   **Reproducible Numerical Verification Artifact for Trapped-Ion Multi-Tenant Quantum Isolation Architectures.**
     *   Evaluates the temporal laser-cooling buffer framework (Contour 3) designed to eliminate residual phononic motional excitations between tenant sessions, preventing cross-tenant quantum side-channel leakage.
     *   Validates the continuous-variable phonon cooling ODE model against independent numerical integration of the Lindblad master equation ($d\rho/dt$) via the **QuTiP** master-equation solver, achieving empirical deviation below $10^{-6}$.
