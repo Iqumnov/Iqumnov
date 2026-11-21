@@ -2,13 +2,11 @@
 
   <img src="./stats.svg" width="100%" alt="Contributions in the last year"/>
 
-  <br/><br/>
+  <p align="center">
+    <a href="https://github.com/Iqumnov" title="GitHub"><img src="./icons/github.svg" width="32" height="32" alt="GitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="32" height="32" alt="ORCID"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="32" height="32" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.com/users/iqumnov" title="Discord"><img src="./icons/discord.svg" width="32" height="32" alt="Discord"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="32" height="32" alt="LinkedIn"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="32" height="32" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="32" height="32" alt="Instagram"/></a>
+  </p>
 
-  <a href="https://github.com/Iqumnov" title="GitHub"><img src="./icons/github.svg" width="24" height="24" alt="GitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="24" height="24" alt="ORCID"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="24" height="24" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.com/users/iqumnov" title="Discord"><img src="./icons/discord.svg" width="24" height="24" alt="Discord"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="24" height="24" alt="LinkedIn"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="24" height="24" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="24" height="24" alt="Instagram"/></a>
-
-  <br/><br/>
-
-  [<kbd>&nbsp;matvei@iqumnov.com&nbsp;</kbd>](mailto:matvei@iqumnov.com)
+  <a href="mailto:matvei@iqumnov.com">matvei@iqumnov.com</a>
 
 </div>
 
@@ -28,14 +26,14 @@
 ⌍ Core Initiatives ⌎
 </p>
 
-*   **PQCanary** &nbsp; [<kbd>&nbsp;GitHub ↗&nbsp;</kbd>](https://github.com/Iqumnov/PQCanary) &nbsp; [<kbd>&nbsp;Live Platform ↗&nbsp;</kbd>](https://pqcanary.pages.dev)
+*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Live Platform ↗](https://pqcanary.pages.dev)
     *   **Enterprise Post-Quantum Cryptographic (PQC) Discovery, Verification & Automated Remediation Platform.**
     *   Identifies classical cryptographic algorithms vulnerable to quantum cryptanalysis (RSA, ECC, Diffie-Hellman) and generates compliance-ready Cryptographic Bills of Materials (CBOM) aligned with NIST standards (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
     *   Leverages the **Z3 SMT Solver** to formally prove inductive range bounds and constant-time execution across lattice polynomial reduction loops, statically eliminating secret-dependent timing side-channel leaks (KyberSlash).
     *   Features an automated AST-level code modernization engine alongside a zero-install, client-side WebAssembly analyzer running pure Rust.
     *   *Stack:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, liboqs, Qiskit.
 
-*   **qir-reversing** &nbsp; [<kbd>&nbsp;GitHub ↗&nbsp;</kbd>](https://github.com/Iqumnov/Qir-Reversing) &nbsp; [<kbd>&nbsp;Live Web App ↗&nbsp;</kbd>](https://qir-reversing.iqumnov.com)
+*   **[qir-reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Live Web App ↗](https://qir-reversing.iqumnov.com)
     *   **LLVM Quantum Intermediate Representation (QIR) Reverse Engineering, Topological Deobfuscation & Formal Verification Suite.**
     *   High-performance zero-copy disassembler parsing textual LLVM IR (`.ll`) and raw binary bitcode (`.bc`) with `#![forbid(unsafe_code)]` in the mathematical core.
     *   Applies quantum commutation algebra to eliminate self-inverse involutory gate pairs ($H^2 = I, X^2 = I, CX^2 = I$), consolidate continuous Lie group rotations ($R_z(\alpha) \cdot R_z(\beta)$), and prune dead unmeasured qubit telemetry.
@@ -43,11 +41,11 @@
     *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock.
     *   *Stack:* Rust, LLVM QIR, Lean 4, WebAssembly, Rizin C-ABI, Cutter (PySide), OpenQASM 3.0, MCP JSON-RPC 2.0.
 
-*   **turtleshell-demo** &nbsp; [<kbd>&nbsp;GitHub ↗&nbsp;</kbd>](https://github.com/Iqumnov/turtleshell-demo) &nbsp; [<kbd>&nbsp;Zenodo DOI ↗&nbsp;</kbd>](https://doi.org/10.5281/zenodo.21921488)
+*   **[turtleshell-demo](https://github.com/Iqumnov/turtleshell-demo)** &nbsp;·&nbsp; [Zenodo DOI ↗](https://doi.org/10.5281/zenodo.21921488)
     *   **Reproducible Numerical Verification Artifact for Trapped-Ion Multi-Tenant Quantum Isolation Architectures.**
     *   Evaluates the temporal laser-cooling buffer framework (Contour 3) designed to eliminate residual phononic motional excitations between tenant sessions, preventing cross-tenant quantum side-channel leakage.
     *   Validates the continuous-variable phonon cooling ODE model against independent numerical integration of the Lindblad master equation ($d\rho/dt$) via the **QuTiP** master-equation solver, achieving empirical deviation below $10^{-6}$.
-    *   Published with persistent academic DOI [<kbd>&nbsp;10.5281/zenodo.21921488 ↗&nbsp;</kbd>](https://doi.org/10.5281/zenodo.21921488), featuring deterministic, zero-randomness bit-reproducible benchmarks and unit-tested mathematical assertions.
+    *   Published with persistent academic DOI [10.5281/zenodo.21921488](https://doi.org/10.5281/zenodo.21921488), featuring deterministic, zero-randomness bit-reproducible benchmarks and unit-tested mathematical assertions.
     *   *Stack:* Python, QuTiP, NumPy, SciPy, Matplotlib.
 
 ---
@@ -71,9 +69,9 @@
 ⌍ Validation & Milestones ⌎
 </p>
 
-*   **eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/eWPT_v1.0_Matvei_Igumnov.pdf) | ID: 8017284
-*   **IBM Qiskit Quantum Excellence Awards** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/IBM_Quantum_Excellence_2026.pdf) | 2026, 2021, 2020 (Qiskit Global Summer School)
-*   **Lomonosov MSU Case-Championship Winner** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/MSU_Winner_Matvei_Igumnov_Team_1.pdf) | Medical Analytical Platform (Healthy Technologies)
-*   **Womanium Global Quantum Computing Program** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/Womanium_Quantum_2022_Matvei_Igumnov.pdf) | Hardware Certificate (MIT, IBM, Princeton Partnership)
-*   **QHack Coding Challenges Certificate** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/QHack_Coding_Challenge_Matvei_Igumnov.pdf) | PennyLane / Xanadu
-*   **QWorld QSilver Diploma** &nbsp; [<kbd>&nbsp;Verify ↗&nbsp;</kbd>](./Certifications/QSilver2021_Matvei_Igumnov.pdf) | Complex Numbers & Shor’s Algorithm | No: QSilver2-50
+*   **[eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)](./Certifications/eWPT_v1.0_Matvei_Igumnov.pdf)** | ID: 8017284
+*   **[IBM Qiskit Quantum Excellence Awards](./Certifications/IBM_Quantum_Excellence_2026.pdf)** | 2026, 2021, 2020 (Qiskit Global Summer School)
+*   **[Lomonosov MSU Case-Championship Winner](./Certifications/MSU_Winner_Matvei_Igumnov_Team_1.pdf)** | Medical Analytical Platform (Healthy Technologies)
+*   **[Womanium Global Quantum Computing Program](./Certifications/Womanium_Quantum_2022_Matvei_Igumnov.pdf)** | Hardware Certificate (MIT, IBM, Princeton Partnership)
+*   **[QHack Coding Challenges Certificate](./Certifications/QHack_Coding_Challenge_Matvei_Igumnov.pdf)** | PennyLane / Xanadu
+*   **[QWorld QSilver Diploma](./Certifications/QSilver2021_Matvei_Igumnov.pdf)** | Complex Numbers & Shor’s Algorithm | No: QSilver2-50
