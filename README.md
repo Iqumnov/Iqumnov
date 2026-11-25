@@ -31,7 +31,7 @@
     *   **Enterprise Post-Quantum Cryptographic (PQC) Discovery, Verification & Automated Remediation Platform.**
     *   Identifies classical cryptographic algorithms vulnerable to quantum cryptanalysis (RSA, ECC, Diffie-Hellman) and generates compliance-ready Cryptographic Bills of Materials (CBOM) aligned with NIST standards (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
     *   Leverages the **Z3 SMT Solver** to formally prove inductive range bounds and constant-time execution across lattice polynomial reduction loops, statically eliminating secret-dependent timing side-channel leaks (KyberSlash).
-    *   Features an automated AST-level code modernization engine alongside a zero-install, client-side WebAssembly analyzer running pure Rust.
+    *   Features an automated AST-level code modernization engine alongside a zero-install, client-side WebAssembly analyzer running pure Rust, registered with persistent Zenodo DOI [10.5281/zenodo.24527917](https://doi.org/10.5281/zenodo.24527917).
     *   *Stack:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, liboqs, Qiskit.
 
 *   **[QIR Reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Visit ↗](https://qir-reversing.iqumnov.com)
@@ -39,14 +39,14 @@
     *   High-performance zero-copy disassembler parsing textual LLVM IR (`.ll`) and raw binary bitcode (`.bc`) with `#![forbid(unsafe_code)]` in the mathematical core.
     *   Applies quantum commutation algebra to eliminate self-inverse involutory gate pairs ($H^2 = I, X^2 = I, CX^2 = I$), consolidate continuous Lie group rotations ($R_z(\alpha) \cdot R_z(\beta)$), and prune dead unmeasured qubit telemetry.
     *   Mathematically verifies circuit equivalence via full dense matrix simulation in $2^N$-dimensional Hilbert space with exact Quantum Process Fidelity ($F = 1.00000000$), backed by machine-checked **Lean 4** unitary invariance proofs.
-    *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock.
+    *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock, registered with persistent Zenodo DOI [10.5281/zenodo.24528097](https://doi.org/10.5281/zenodo.24528097).
     *   *Stack:* Rust, LLVM QIR, Lean 4, WebAssembly, Rizin C-ABI, Cutter (PySide), OpenQASM 3.0, MCP JSON-RPC 2.0.
 
 *   **[TurtleShell](https://github.com/Iqumnov/TurtleShell)** &nbsp;·&nbsp; [Visit ↗](https://turtleshell.iqumnov.com)
     *   **Multi-Tenant Process Isolation, Side-Channel Defense & Hardware Benchmarking Platform for Quantum Clouds.**
     *   Protects co-located multi-tenant workloads across Superconducting (IBM Heron/Eagle), Trapped-Ion, and Neutral-Atom lattices via a 4-contour defense architecture: graph-spectral QPU partitioning (Contour 1), static SHA-256 bytecode & anomaly auditing (Contour 2), temporal laser-cooling buffers with QuTiP Lindblad master equation verification (Contour 3), and telemetric differential SPC anomaly monitoring (Contour 4).
     *   Ships with the **QIB (Quantum Isolation Benchmark)** suite evaluating cross-tenant crosstalk, Rowhammer-style coherent gate hammering, and motional state residual excitation across cloud providers.
-    *   Features an offline, zero-backend browser simulation engine on Cloudflare Pages alongside a high-throughput Python FastAPI/QuTiP backend, registered with persistent Zenodo DOI [10.5281/zenodo.21921488](https://doi.org/10.5281/zenodo.21921488).
+    *   Features an offline, zero-backend browser simulation engine on Cloudflare Pages alongside a high-throughput Python FastAPI/QuTiP backend, registered with persistent Zenodo DOI [10.5281/zenodo.24528037](https://doi.org/10.5281/zenodo.24528037).
     *   *Stack:* Python, FastAPI, QuTiP, Qiskit, TypeScript, React, Vite, NetworkX, Scikit-learn.
 
 ---
