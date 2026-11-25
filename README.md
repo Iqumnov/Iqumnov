@@ -42,12 +42,12 @@
     *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock.
     *   *Stack:* Rust, LLVM QIR, Lean 4, WebAssembly, Rizin C-ABI, Cutter (PySide), OpenQASM 3.0, MCP JSON-RPC 2.0.
 
-*   **[TurtleShell Demo](https://github.com/Iqumnov/turtleshell-demo)**
-    *   **Reproducible Numerical Verification Artifact for Trapped-Ion Multi-Tenant Quantum Isolation Architectures.**
-    *   Evaluates the temporal laser-cooling buffer framework (Contour 3) designed to eliminate residual phononic motional excitations between tenant sessions, preventing cross-tenant quantum side-channel leakage.
-    *   Validates the continuous-variable phonon cooling ODE model against independent numerical integration of the Lindblad master equation ($d\rho/dt$) via the **QuTiP** master-equation solver, achieving empirical deviation below $10^{-6}$.
-    *   Published with persistent academic DOI [10.5281/zenodo.21921488](https://doi.org/10.5281/zenodo.21921488), featuring deterministic, zero-randomness bit-reproducible benchmarks and unit-tested mathematical assertions.
-    *   *Stack:* Python, QuTiP, NumPy, SciPy, Matplotlib.
+*   **[TurtleShell](https://github.com/Iqumnov/TurtleShell)** &nbsp;·&nbsp; [Visit ↗](https://turtleshell.iqumnov.com)
+    *   **Multi-Tenant Process Isolation, Side-Channel Defense & Hardware Benchmarking Platform for Quantum Clouds.**
+    *   Protects co-located multi-tenant workloads across Superconducting (IBM Heron/Eagle), Trapped-Ion, and Neutral-Atom lattices via a 4-contour defense architecture: graph-spectral QPU partitioning (Contour 1), static SHA-256 bytecode & anomaly auditing (Contour 2), temporal laser-cooling buffers with QuTiP Lindblad master equation verification (Contour 3), and telemetric differential SPC anomaly monitoring (Contour 4).
+    *   Ships with the **QIB (Quantum Isolation Benchmark)** suite evaluating cross-tenant crosstalk, Rowhammer-style coherent gate hammering, and motional state residual excitation across cloud providers.
+    *   Features an offline, zero-backend browser simulation engine on Cloudflare Pages alongside a high-throughput Python FastAPI/QuTiP backend, registered with persistent Zenodo DOI [10.5281/zenodo.21921488](https://doi.org/10.5281/zenodo.21921488).
+    *   *Stack:* Python, FastAPI, QuTiP, Qiskit, TypeScript, React, Vite, NetworkX, Scikit-learn.
 
 ---
 
