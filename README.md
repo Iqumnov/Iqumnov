@@ -76,3 +76,74 @@
 *   **[Womanium Global Quantum Computing Program](./Certifications/Womanium_Quantum_2022_Matvei_Igumnov.pdf)** | Hardware Certificate (MIT, IBM, Princeton Partnership)
 *   **[QHack Coding Challenges Certificate](./Certifications/QHack_Coding_Challenge_Matvei_Igumnov.pdf)** | PennyLane / Xanadu
 *   **[QWorld QSilver Diploma](./Certifications/QSilver2021_Matvei_Igumnov.pdf)** | Complex Numbers & Shor’s Algorithm | No: QSilver2-50
+
+---
+
+<div align="center">
+  <h2>Русская версия / Russian Version</h2>
+</div>
+
+<p align="center">
+⌍ Описание ⌎
+</p>
+
+**Квантовая безопасность, криптографическая инженерия и низкоуровневая защита систем.** Разработка инструментов статической верификации, телеметрии уровня ядра и архитектур постквантовой криптографии (PQC).
+
+*   **Образование:** Бакалавр по направлению «Информационная безопасность», Московский политехнический университет (выпуск 2027).
+*   Сооснователь и куратор [Our Dynasty Art](https://ourdynasty.art) — художественная галерея и фамильное собрание пяти поколений художников династии.
+
+---
+
+<p align="center">
+⌍ Ключевые проекты ⌎
+</p>
+
+*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Сайт ↗](https://pqcanary.pages.dev)
+    *   **Корпоративная платформа аудита, формальной верификации и автоматизированной миграции на постквантовую криптографию (PQC).**
+    *   Выявляет классические криптографические алгоритмы, уязвимые для квантового криптоанализа (RSA, ECC, Diffie-Hellman), и генерирует спецификации Cryptographic Bill of Materials (CBOM) в соответствии со стандартами NIST (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
+    *   Использует **Z3 SMT Solver** для формального доказательства индуктивных границ диапазонов и постоянного времени выполнения циклов полиномиальной редукции в решетках, статически устраняя утечки по побочным каналам времени (атаки KyberSlash).
+    *   Оснащен движком семантической модернизации кода на уровне AST и полностью клиентским WebAssembly-анализатором на чистом Rust без передачи данных по сети (Zenodo DOI [10.5281/zenodo.24527917](https://doi.org/10.5281/zenodo.24527917)).
+    *   *Стек:* Rust, Solid.js, WebAssembly, Z3 SMT Solver, liboqs, Qiskit.
+
+*   **[QIR Reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Сайт ↗](https://qir-reversing.iqumnov.com)
+    *   **Комплекс обратной разработки, деобфускации и формальной верификации квантового промежуточного представления LLVM QIR.**
+    *   Высокопроизводительный дисассемблер без копирования памяти для текстового LLVM IR (`.ll`) и бинарного биткода (`.bc`) с гарантией безопасности `#![forbid(unsafe_code)]` в математическом ядре.
+    *   Применяет коммутационную алгебру квантовых вентилей для устранения самообратных инволютивных пар ($H^2 = I, X^2 = I, CX^2 = I$), объединения непрерывных вращений групп Ли ($R_z(\alpha) \cdot R_z(\beta)$) и отсечения неиспользуемых измерительных цепей.
+    *   Математически доказывает унитарную эквивалентность схем через плотное матричное моделирование в $2^N$-мерном гильбертовом пространстве с точным расчетом точности квантового процесса ($F = 1.00000000$), подтвержденным формальными доказательствами в **Lean 4**.
+    *   Включает автономный CLI (`qir-rev`), MCP-сервер протокола контекста моделей для ИИ-агентов (`qir-rev-mcp`), плагин C-ABI для фреймворка Rizin (`librz_qir.so`) и панель для Cutter Qt/PySide GUI (Zenodo DOI [10.5281/zenodo.24528097](https://doi.org/10.5281/zenodo.24528097)).
+    *   *Стек:* Rust, LLVM QIR, Lean 4, WebAssembly, Rizin C-ABI, Cutter (PySide), OpenQASM 3.0, MCP JSON-RPC 2.0.
+
+*   **[TurtleShell](https://github.com/Iqumnov/TurtleShell)** &nbsp;·&nbsp; [Сайт ↗](https://turtleshell.iqumnov.com)
+    *   **Платформа многоарендной изоляции процессов, защиты от атак по побочным каналам и аппаратного бенчмаркинга для квантовых облаков.**
+    *   Обеспечивает взаимную изоляцию параллельных пользовательских задач на сверхпроводниковых процессорах (IBM Heron/Eagle), ионных ловушках и массивах нейтральных атомов через 4-контурную систему защиты: спектральное разбиение графа связности QPU (Контур 1), статический аудит SHA-256 и аномалий байткода компилятора (Контур 2), временные буферы лазерного охлаждения с верификацией уравнения Линдблада в QuTiP (Контур 3) и дифференциальный контроль телеметрии SPC (Контур 4).
+    *   Содержит пакет бенчмарков **QIB (Quantum Isolation Benchmark)** для аудита межпользовательских наводок (ZZ-crosstalk), циклического импульсного нагрева (Rowhammer) и паразитного заселения колебательных фононных мод.
+    *   Поддерживает работу как автономного браузерного симулятора на Cloudflare Pages с нулевым бэкендом, так и локального сервиса на FastAPI и QuTiP (Zenodo DOI [10.5281/zenodo.24528037](https://doi.org/10.5281/zenodo.24528037)).
+    *   *Стек:* Python, FastAPI, QuTiP, Qiskit, TypeScript, React, Vite, NetworkX, Scikit-learn.
+
+---
+
+<p align="center">
+⌍ Технические навыки ⌎
+</p>
+
+```text
+┌── Языки программирования ──► Rust • Python • C/C++ • Java • C# • SQL (Postgres) • OpenQASM
+├── Безопасность и бэкенд ──► Spring Boot • Spring Security • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC
+├── Квантовые вычисления ───► Qiskit • PennyLane • ETSI GS QKD 014 • Z3 SMT
+├── Криптография и аудит ───► liboqs • NIST PQC (FIPS 203/204/205) • PKI / X.509 • PKCS#11 • eBPF • OpenTelemetry • DORA / NIS2
+├── Инфраструктура и облака ─► Linux (RHEL/Debian) • Git • Docker • Kubernetes • AWS
+└── Языки общения ──────────► Русский (родной) • Английский (продвинутый) • Французский (изучаю)
+```
+
+---
+
+<p align="center">
+⌍ Сертификаты и достижения ⌎
+</p>
+
+*   **[eLearnSecurity Certified Web Penetration Tester (eWPT v1.0)](./Certifications/eWPT_v1.0_Matvei_Igumnov.pdf)** | ID: 8017284
+*   **[IBM Qiskit Quantum Excellence Awards](./Certifications/IBM_Quantum_Excellence_2026.pdf)** | 2026, 2021, 2020 (Qiskit Global Summer School)
+*   **[Победитель кейс-чемпионата МГУ им. М.В. Ломоносова](./Certifications/MSU_Winner_Matvei_Igumnov_Team_1.pdf)** | Медицинская аналитическая платформа (Здоровые технологии)
+*   **[Womanium Global Quantum Computing Program](./Certifications/Womanium_Quantum_2022_Matvei_Igumnov.pdf)** | Сертификат по квантовому оборудованию (партнерство MIT, IBM, Princeton)
+*   **[QHack Coding Challenges Certificate](./Certifications/QHack_Coding_Challenge_Matvei_Igumnov.pdf)** | PennyLane / Xanadu
+*   **[QWorld QSilver Diploma](./Certifications/QSilver2021_Matvei_Igumnov.pdf)** | Комплексные числа и алгоритм Шора | №: QSilver2-50
