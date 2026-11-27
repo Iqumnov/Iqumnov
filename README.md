@@ -3,7 +3,7 @@
   <img src="./stats.svg" width="100%" alt="Contributions in the last year"/>
 
   <p align="center">
-    <a href="https://iqumnov.com" title="Website"><img src="./icons/website.svg" width="36" height="36" alt="Website"/></a>&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="36" height="36" alt="ORCID"/></a>&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="36" height="36" alt="Telegram"/></a>&nbsp;<a href="https://discord.com/users/iqumnov" title="Discord"><img src="./icons/discord.svg" width="36" height="36" alt="Discord"/></a>&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="36" height="36" alt="LinkedIn"/></a>&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="36" height="36" alt="YouTube"/></a>&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="36" height="36" alt="Instagram"/></a>
+    <a href="https://iqumnov.com" title="Website"><img src="./icons/website.svg" width="36" height="36" alt="Website"/></a>&nbsp;<a href="https://orcid.org/0009-0001-7924-1522" title="ORCID"><img src="./icons/orcid.svg" width="36" height="36" alt="ORCID"/></a>&nbsp;<a href="https://t.me/iqumnov" title="Telegram"><img src="./icons/telegram.svg" width="36" height="36" alt="Telegram"/></a>&nbsp;<a href="https://discord.com/users/1515738859910987959" title="Discord"><img src="./icons/discord.svg" width="36" height="36" alt="Discord"/></a>&nbsp;<a href="https://www.linkedin.com/in/iqumnov" title="LinkedIn"><img src="./icons/linkedin.svg" width="36" height="36" alt="LinkedIn"/></a>&nbsp;<a href="https://www.youtube.com/@Iqumnov" title="YouTube"><img src="./icons/youtube.svg" width="36" height="36" alt="YouTube"/></a>&nbsp;<a href="https://www.instagram.com/iqumnov" title="Instagram"><img src="./icons/instagram.svg" width="36" height="36" alt="Instagram"/></a>
   </p>
 
   <a href="mailto:matvei@iqumnov.com">matvei@iqumnov.com</a>
@@ -27,7 +27,7 @@
 ⌍ Core Initiatives ⌎
 </p>
 
-*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Visit ↗](https://pqcanary.pages.dev)
+*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Visit ↗](https://pqcanary.iqumnov.com)
     *   **Enterprise Post-Quantum Cryptographic (PQC) Discovery, Verification & Automated Remediation Platform.**
     *   Identifies classical cryptographic algorithms vulnerable to quantum cryptanalysis (RSA, ECC, Diffie-Hellman) and generates compliance-ready Cryptographic Bills of Materials (CBOM) aligned with NIST standards (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
     *   Leverages the **Z3 SMT Solver** to formally prove inductive range bounds and constant-time execution across lattice polynomial reduction loops, statically eliminating secret-dependent timing side-channel leaks (KyberSlash).
@@ -36,7 +36,7 @@
 
 *   **[QIR Reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Visit ↗](https://qir-reversing.iqumnov.com)
     *   **LLVM Quantum Intermediate Representation (QIR) Reverse Engineering, Topological Deobfuscation & Formal Verification Suite.**
-    *   High-performance zero-copy disassembler parsing textual LLVM IR (`.ll`) and raw binary bitcode (`.bc`) with `#![forbid(unsafe_code)]` in the mathematical core.
+    *   Memory-safe Rust disassembler parsing textual LLVM IR (`.ll`) and binary bitcode (`.bc`) with `#![deny(unsafe_code)]` at the `qir-core` crate root.
     *   Applies quantum commutation algebra to eliminate self-inverse involutory gate pairs ($H^2 = I, X^2 = I, CX^2 = I$), consolidate continuous Lie group rotations ($R_z(\alpha) \cdot R_z(\beta)$), and prune dead unmeasured qubit telemetry.
     *   Mathematically verifies circuit equivalence via full dense matrix simulation in $2^N$-dimensional Hilbert space with exact Quantum Process Fidelity ($F = 1.00000000$), backed by machine-checked **Lean 4** unitary invariance proofs.
     *   Distributes standalone CLI binaries (`qir-rev`), an AI Agent Model Context Protocol server (`qir-rev-mcp`), a native C-ABI Rizin plugin (`librz_qir.so`), and a Cutter Qt/PySide GUI dock, registered with persistent Zenodo DOI [10.5281/zenodo.24528097](https://doi.org/10.5281/zenodo.24528097).
@@ -58,7 +58,7 @@
 ```text
 ┌── Languages ───────────► Rust • Python • C/C++ • Java • C# • SQL (Postgres) • OpenQASM
 ├── Security & Backend ──► Spring Boot • Spring Security • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC
-├── Quantum & Formal ────► Qiskit • PennyLane • ETSI GS QKD 014 • Z3 SMT
+├── Quantum & Formal ────► Qiskit • PennyLane • ETSI GS QKD 014 • Lean 4 • Z3 SMT
 ├── Crypto & Compliance ─► liboqs • NIST PQC (FIPS 203/204/205) • PKI / X.509 • PKCS#11 • eBPF • OpenTelemetry • DORA / NIS2
 ├── Infra & Cloud ───────► Linux (RHEL/Debian) • Git • Docker • Kubernetes • AWS
 └── Spoken Languages ────► English (Advanced) • French (Learning) • Russian (Native)
@@ -98,7 +98,7 @@
 ⌍ Ключевые проекты ⌎
 </p>
 
-*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Сайт ↗](https://pqcanary.pages.dev)
+*   **[PQCanary](https://github.com/Iqumnov/PQCanary)** &nbsp;·&nbsp; [Сайт ↗](https://pqcanary.iqumnov.com)
     *   **Корпоративная платформа аудита, формальной верификации и автоматизированной миграции на постквантовую криптографию (PQC).**
     *   Выявляет классические криптографические алгоритмы, уязвимые для квантового криптоанализа (RSA, ECC, Diffie-Hellman), и генерирует спецификации Cryptographic Bill of Materials (CBOM) в соответствии со стандартами NIST (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA).
     *   Использует **Z3 SMT Solver** для формального доказательства индуктивных границ диапазонов и постоянного времени выполнения циклов полиномиальной редукции в решетках, статически устраняя утечки по побочным каналам времени (атаки KyberSlash).
@@ -107,7 +107,7 @@
 
 *   **[QIR Reversing](https://github.com/Iqumnov/Qir-Reversing)** &nbsp;·&nbsp; [Сайт ↗](https://qir-reversing.iqumnov.com)
     *   **Комплекс обратной разработки, деобфускации и формальной верификации квантового промежуточного представления LLVM QIR.**
-    *   Высокопроизводительный дисассемблер без копирования памяти для текстового LLVM IR (`.ll`) и бинарного биткода (`.bc`) с гарантией безопасности `#![forbid(unsafe_code)]` в математическом ядре.
+    *   Безопасный по памяти дисассемблер на Rust для текстового LLVM IR (`.ll`) и бинарного биткода (`.bc`) с директивой `#![deny(unsafe_code)]` в корне крейта `qir-core`.
     *   Применяет коммутационную алгебру квантовых вентилей для устранения самообратных инволютивных пар ($H^2 = I, X^2 = I, CX^2 = I$), объединения непрерывных вращений групп Ли ($R_z(\alpha) \cdot R_z(\beta)$) и отсечения неиспользуемых измерительных цепей.
     *   Математически доказывает унитарную эквивалентность схем через плотное матричное моделирование в $2^N$-мерном гильбертовом пространстве с точным расчетом точности квантового процесса ($F = 1.00000000$), подтвержденным формальными доказательствами в **Lean 4**.
     *   Включает автономный CLI (`qir-rev`), MCP-сервер протокола контекста моделей для ИИ-агентов (`qir-rev-mcp`), плагин C-ABI для фреймворка Rizin (`librz_qir.so`) и панель для Cutter Qt/PySide GUI (Zenodo DOI [10.5281/zenodo.24528097](https://doi.org/10.5281/zenodo.24528097)).
@@ -129,7 +129,7 @@
 ```text
 ┌── Языки программирования ──► Rust • Python • C/C++ • Java • C# • SQL (Postgres) • OpenQASM
 ├── Безопасность и бэкенд ──► Spring Boot • Spring Security • Quarkus • Bouncy Castle (JCA/PQC) • Keycloak • gRPC
-├── Квантовые вычисления ───► Qiskit • PennyLane • ETSI GS QKD 014 • Z3 SMT
+├── Квантовые вычисления ───► Qiskit • PennyLane • ETSI GS QKD 014 • Lean 4 • Z3 SMT
 ├── Криптография и аудит ───► liboqs • NIST PQC (FIPS 203/204/205) • PKI / X.509 • PKCS#11 • eBPF • OpenTelemetry • DORA / NIS2
 ├── Инфраструктура и облака ─► Linux (RHEL/Debian) • Git • Docker • Kubernetes • AWS
 └── Языки общения ──────────► Русский (родной) • Английский (продвинутый) • Французский (изучаю)
